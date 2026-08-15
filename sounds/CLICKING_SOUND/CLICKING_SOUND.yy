@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"CLICKING_SOUND",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":3,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":2.0375626,
+  "exportDir":"",
+  "name":"CLICKING_SOUND",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":48000,
+  "soundFile":"CLICKING_SOUND.mp3",
+  "volume":1.0,
+}

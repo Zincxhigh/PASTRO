@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"player_destroy",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":5.2080045,
+  "exportDir":"",
+  "name":"player_destroy",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"player_destroy.mp3",
+  "volume":1.0,
+}
