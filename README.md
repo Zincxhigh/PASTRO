@@ -1,4 +1,5 @@
-#                                                       PASTRO
+#<img width="90" height="64" alt="PASTRO" src="https://github.com/user-attachments/assets/f1fd0728-61d4-45de-9310-f86f94659bba" />
+
 
 ## About the Game
 
@@ -52,7 +53,6 @@ The hardest part of this project was **dedication**.
 Making a game takes time, patience, and a lot of effort. There were times when parts of the project were difficult or did not work the way I wanted them to but yet I made them somehow work since this is my second game so plz be resonable with critizm.
 
 ## Favorite sprites
-<img width="64" height="64" alt="space_settings" src="https://github.com/user-attachments/assets/d34683dd-738d-4309-9801-312354fd7ad8" />
 <img width="64" height="64" alt="main_menu" src="https://github.com/user-attachments/assets/3c6ceccd-560b-4b53-a6c6-a7da1d31b792" />
 <img width="64" height="64" alt="space_settings" src="https://github.com/user-attachments/assets/1ed25be9-d04a-461d-b430-3805dde15bfc" />
 <img width="64" height="64" alt="monster_red_spikes" src="https://github.com/user-attachments/assets/8fd0ea41-f5d2-40ca-a30d-5e55322c01eb" />
