@@ -1,0 +1,1 @@
+audio_play_sound(space_sound,1,true);
