@@ -1,4 +1,5 @@
-<img width="90" height="64" alt="PASTRO" src="https://github.com/user-attachments/assets/f1fd0728-61d4-45de-9310-f86f94659bba" />
+<img width="300" height="300" alt="PASTRO-ezgif com-resize" src="https://github.com/user-attachments/assets/3a070072-2b2d-4953-a857-304ea948e9d2" />
+
 
 
 ## About the Game
