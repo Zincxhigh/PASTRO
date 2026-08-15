@@ -22,7 +22,7 @@ Throughout the game, you will need to:
 * destroy their mothersip.
 
 The goal is: **destroy their mother ship**
-
+---
 ###Controls
 * shift for shelid
 * arrow keys for moving
@@ -47,7 +47,7 @@ Creating this project was a great learning experience. While building the game, 
 
 One of the biggest challenges was not just the technical side of development, but continuing to work on the project and improving it over time.
 
-###The Hardest Part: Dedication
+The Hardest Part: Dedication
 
 The hardest part of this project was **dedication**.
 
