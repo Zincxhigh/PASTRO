@@ -1,0 +1,11 @@
+hp = 20000;
+target_x = 0;
+target_y = 0;
+move_speed = 4;
+setup_done = false;
+alarm[0] = 5000;
+alarm[1] = 600;
+alarm[2] = 600;
+alarm[3] = 7600;
+alarm[4] = 650;
+alarm[5] = 5000;
