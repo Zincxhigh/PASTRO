@@ -1,4 +1,4 @@
-# PASTRO
+#                                                       PASTRO
 
 ## About the Game
 
