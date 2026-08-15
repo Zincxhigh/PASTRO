@@ -1,4 +1,4 @@
-# Space Marine: Invasion of the Auto Bots
+# PASTRO
 
 ## About the Game
 
@@ -21,7 +21,7 @@ Throughout the game, you will need to:
 
 The goal is: **destroy their mother ship**
 
-#Controls
+###Controls
 * shift for shelid
 * arrow keys for moving
 * down arrow key for stopping
