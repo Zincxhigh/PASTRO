@@ -62,18 +62,18 @@ Making a game takes time, patience, and a lot of effort. There were times when p
 ---
 ### FOR MOVEMENT OF PLAYER OR ENEMIES
 ### Create
-// Just initialize the tracking variables
-target_x = 0;
-target_y = 0;
-move_speed = 4;
-alarm[0] = 400;
-hp = 3.5;
-
-// Use a flag to calculate the position only once
-setup_done = false; 
-alarm[1] = 450;
+	// Just initialize the tracking variables
+	target_x = 0;
+	target_y = 0;
+	move_speed = 4;
+	alarm[0] = 400;
+	hp = 3.5;
+	
+	// Use a flag to calculate the position only once
+	setup_done = false; 
+	alarm[1] = 450;
 ### Alarm 0
-if (!setup_done) {
+	if (!setup_done) {
    
     var _total_count = instance_number(object_index);
     
@@ -91,27 +91,27 @@ if (!setup_done) {
     target_y = room_height / 2.5; 
     
     setup_done = true; 
-}
+    }
 ### Alarm 1
-if (instance_exists(player))
-{
-	var _bullet = instance_create_layer(x,y, "Instances",enemie_bullet)
-	direction = ss1_enemie.image_angle
+	if (instance_exists(player))
+	{
+		var _bullet = instance_create_layer(x,y, "Instances",enemie_bullet)
+		direction = ss1_enemie.image_angle
 
-with(_bullet)
-{
+    with(_bullet)
+    {
+
 	audio_play_sound(enemy_shooting_sound,1,false);
 	direction = point_direction(x,y,player.x,player.y)
-	
 	speed = 5;
 	
-}
-}
-alarm[1] = 100;
+    }
+    }
+    alarm[1] = 100;
 ### step
-// Only move if the setup is finished
-if (setup_done) {
-    var _distance = point_distance(x, y, target_x, target_y);
+	// Only move if the setup is finished
+	if (setup_done) {
+	    var _distance = point_distance(x, y, target_x, target_y);
 
     if (_distance > move_speed) {
         direction = point_direction(x, y, target_x, target_y);
@@ -122,24 +122,25 @@ if (setup_done) {
         y = target_y;
         speed = 0;
     }
-}
+    }
+
 ---
 ### FOR FADE SMOOTH FADE BETWEEN ROOM TRANSISTIONS
 ### Create 
-image_xscale *= 100;
-image_yscale *= 100;
-
-fade_out_speed = .05;
-
-image_alpha = 1;
+	image_xscale *= 100;
+	image_yscale *= 100;
+	
+	fade_out_speed = .05;
+	
+	image_alpha = 1;
 ### Step
-image_alpha -= fade_out;
-
-if(image_alpha <= 0) {
-	instance_destroy();
-}
+	image_alpha -= fade_out;
+	
+	if(image_alpha <= 0) {
+		instance_destroy();
+	}
 ### initialize
-instance_create_depth(0, 0, -9999, obj_fade_out
+	instance_create_depth(0, 0, -9999, obj_fade_out
 ---
 
 
