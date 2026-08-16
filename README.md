@@ -1,14 +1,9 @@
-![Static Badge](https://img.shields.io/badge/HACK%20CLUB-orange?style=for-the-badge&logo=hack%20club&labelColor=black&color=orange)
-
-![Static Badge](https://img.shields.io/badge/itch.io-orange?style=for-the-badge&logo=itch.io&labelColor=black&color=red)
-
+![Static Badge](https://img.shields.io/badge/HACK%20CLUB-orange?style=for-the-badge&logo=hack%20club&labelColor=black&color=orange) ![Static Badge](https://img.shields.io/badge/itch.io-orange?style=for-the-badge&logo=itch.io&labelColor=black&color=red)
 ![Static Badge](https://img.shields.io/badge/lapse-orange?style=for-the-badge&logo=meta&labelColor=black&color=red)
 
 ![Static Badge](https://img.shields.io/badge/made%20with%20gamemaker-black?style=for-the-badge&logo=GAMEMAKER&labelColor=WHITE&color=BLACK)
 
 ![Static Badge](https://img.shields.io/badge/50Hour%20PROJECT-black?style=for-the-badge&logo=seconds&labelColor=black&color=red)
-
-
 
 <p align="center">
 <img width="300" height="300" alt="PASTRO-ezgif com-resize" src="https://github.com/user-attachments/assets/3a070072-2b2d-4953-a857-304ea948e9d2" />
