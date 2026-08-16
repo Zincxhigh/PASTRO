@@ -58,6 +58,90 @@ Making a game takes time, patience, and a lot of effort. There were times when p
 <img width="64" height="64" alt="space_settings" src="https://github.com/user-attachments/assets/1ed25be9-d04a-461d-b430-3805dde15bfc" />
 <img width="64" height="64" alt="monster_red_spikes" src="https://github.com/user-attachments/assets/8fd0ea41-f5d2-40ca-a30d-5e55322c01eb" />
 
+## Usefull Code for others to use
+---
+### FOR MOVEMENT OF PLAYER OR ENEMIES
+### Create
+// Just initialize the tracking variables
+target_x = 0;
+target_y = 0;
+move_speed = 4;
+alarm[0] = 400;
+hp = 3.5;
+
+// Use a flag to calculate the position only once
+setup_done = false; 
+alarm[1] = 450;
+### Alarm 0
+if (!setup_done) {
+   
+    var _total_count = instance_number(object_index);
+    
+    var _my_index = 0;
+    for (var i = 0; i < _total_count; i++) {
+        if (instance_find(object_index, i) == id) {
+            _my_index = i;
+            break;
+        }
+    }
+    
+    var _spacing = room_width / (_total_count + 1); 
+    target_x = _spacing * (_my_index + 1);
+
+    target_y = room_height / 2.5; 
+    
+    setup_done = true; 
+}
+### Alarm 1
+if (instance_exists(player))
+{
+	var _bullet = instance_create_layer(x,y, "Instances",enemie_bullet)
+	direction = ss1_enemie.image_angle
+
+with(_bullet)
+{
+	audio_play_sound(enemy_shooting_sound,1,false);
+	direction = point_direction(x,y,player.x,player.y)
+	
+	speed = 5;
+	
+}
+}
+alarm[1] = 100;
+### step
+// Only move if the setup is finished
+if (setup_done) {
+    var _distance = point_distance(x, y, target_x, target_y);
+
+    if (_distance > move_speed) {
+        direction = point_direction(x, y, target_x, target_y);
+        speed = move_speed;
+    } 
+    else {
+        x = target_x;
+        y = target_y;
+        speed = 0;
+    }
+}
+---
+### FOR FADE SMOOTH FADE BETWEEN ROOM TRANSISTIONS
+### Create 
+image_xscale *= 100;
+image_yscale *= 100;
+
+fade_out_speed = .05;
+
+image_alpha = 1;
+### Step
+image_alpha -= fade_out;
+
+if(image_alpha <= 0) {
+	instance_destroy();
+}
+### initialize
+instance_create_depth(0, 0, -9999, obj_fade_out
+---
+
 
 ## Final Thoughts
 
@@ -70,4 +154,4 @@ I am really proud of what I have overcame and want to build more games with bett
 
 This project was created as part of my journey with **Hack Club**.
 
-### 🪐 Hack Club
+### Hack Club
